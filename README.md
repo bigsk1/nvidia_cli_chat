@@ -100,6 +100,11 @@ nvidia_cli_chat/
 - **`.env`**: Stores environment variables including the API key and model identifiers.
 - **`requirements.txt`**: Lists the Python packages required to run the application.
 
+## Example 
+
+Code examples in terminal
+
+![nvidia_chat](https://imagedelivery.net/WfhVb8dSNAAvdXUdMfBuPQ/6ccb0a41-cdf1-4465-3f87-0f2364e9a200/public)
 
 ## License
 
