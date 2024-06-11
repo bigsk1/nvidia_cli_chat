@@ -1,0 +1,4 @@
+requests
+rich
+openai
+python-dotenv
