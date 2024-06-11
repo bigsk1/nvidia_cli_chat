@@ -16,8 +16,7 @@ This project provides a command-line interface (CLI) chat application using vari
 ## Prerequisites
 
 - Python 3.6 or higher
-- NVIDIA API key
-- Account with Nvidia for your API Key https://build.nvidia.com/explore/discover
+- Dev account with Nvidia (it's free) for your API Key https://build.nvidia.com/explore/discover
 
 ## Installation
 
@@ -43,7 +42,7 @@ This project provides a command-line interface (CLI) chat application using vari
 
 4. **Set Up Environment Variables:**
 
-   Create a `.env` file in the project root directory with the following content or just rename .env.sample to .env:
+   Rename .env.sample to .env:
 
    ```plaintext
    API_KEY="your_single_api_key"
@@ -55,7 +54,7 @@ This project provides a command-line interface (CLI) chat application using vari
    GRANITE_34B_CODE="ibm/granite-34b-code-instruct"
    ```
 
-   Replace `your_single_api_key` with your actual NVIDIA API key. You can add additional models by just copying the .env format and adding them to models.py 
+   Replace `your_single_api_key` with your actual personal NVIDIA API key. You can add additional models by just copying the models format in .env and adding them to models.py 
 
 ## Usage
 
