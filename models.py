@@ -53,6 +53,15 @@ models = {
         "temperature": 0.5,
         "top_p": 1.0,
         "max_tokens": 1024
+    },
+    "6": {
+        "name": "LLaMA 3 405B",
+        "description": "Complex conversations with superior contextual understanding, reasoning and text generation.",
+        "model": os.getenv("LLAMA3_405B"),
+        "api_key": api_key,
+        "temperature": 0.2,
+        "top_p": 0.7,
+        "max_tokens": 1024
     }
 }
 
